@@ -6,7 +6,7 @@ import base64
 
 ruta_excel = 'C:/Users/ADMIN/Documents/LP/PROYECTO/DATOS.xlsx'
 ruta_imagen1 = 'C:/Users/ADMIN/Documents/LP/PROYECTO/raven.jpg'
-ruta_imagen2 = 'C:/Users/ADMIN/Documents/LP/PROYECTO/images.png'  # Ruta del segundo logo
+ruta_imagen2 = 'C:/Users/ADMIN/Documents/LP/PROYECTO/images.png'
 
 if not os.path.exists(ruta_excel):
     st.error(f"No se encontró el archivo Excel en la ruta: {ruta_excel}")
